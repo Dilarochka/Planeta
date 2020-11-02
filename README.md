@@ -97,7 +97,7 @@
 				//var Sun = new THREE.Mesh( geometry, material );
 				//scene.add( Sun );
 
-				var mapC = textureLoader.load( "glow.png" );
+				var mapC = textureLoader.load( "" );
 				var sMaterial = new THREE.SpriteMaterial( { map: mapC, color: 0xffaa00 } );
 				sMaterial.blending = THREE.AdditiveBlending;	
 				var sprite = new THREE.Sprite( sMaterial );
@@ -119,7 +119,7 @@
 				//var Sun = new THREE.Mesh( geometry, material );
 				//scene.add( Sun );
 
-				var mapC = textureLoader.load( "glow.png" );
+				var mapC = textureLoader.load( "" );
 				var sMaterial = new THREE.SpriteMaterial( { map: mapC, color: 0xffaa00 } );
 				sMaterial.blending = THREE.AdditiveBlending;	
 				var sprite = new THREE.Sprite( sMaterial );
