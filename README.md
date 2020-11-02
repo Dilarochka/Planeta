@@ -73,7 +73,7 @@
 				
 				var textureLoader = new THREE.TextureLoader();
 				var material = new THREE.MeshPhongMaterial( { color: 0xFFA07A } );
-				var map = textureLoader.load( 'textures/earth.jpg' );
+				var map = textureLoader.load( 'earth.jpg' );
 				map.wrapS = map.wrapT = THREE.RepeatWrapping;
 				map.anisotropy = 16;
 				var material = new THREE.MeshPhongMaterial( { map: map } );
@@ -97,7 +97,7 @@
 				//var Sun = new THREE.Mesh( geometry, material );
 				//scene.add( Sun );
 
-				var mapC = textureLoader.load( "textures/glow.png" );
+				var mapC = textureLoader.load( "glow.png" );
 				var sMaterial = new THREE.SpriteMaterial( { map: mapC, color: 0xffaa00 } );
 				sMaterial.blending = THREE.AdditiveBlending;	
 				var sprite = new THREE.Sprite( sMaterial );
