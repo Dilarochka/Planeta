@@ -119,7 +119,7 @@
 				//var Sun = new THREE.Mesh( geometry, material );
 				//scene.add( Sun );
 
-				var mapC = textureLoader.load( "textures/glow.png" );
+				var mapC = textureLoader.load( "glow.png" );
 				var sMaterial = new THREE.SpriteMaterial( { map: mapC, color: 0xffaa00 } );
 				sMaterial.blending = THREE.AdditiveBlending;	
 				var sprite = new THREE.Sprite( sMaterial );
@@ -129,7 +129,7 @@
 				// Sky
 				
 				var geometry = new THREE.BoxGeometry ( 50000, 50000, 50000 );
-				var map = textureLoader.load( 'textures/sky.jpg' );
+				var map = textureLoader.load( 'sky.jpg' );
 				map.wrapS = map.wrapT = THREE.RepeatWrapping;
 				map.repeat.set( 4, 4 );
 				map.anisotropy = 16;
