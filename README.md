@@ -128,7 +128,7 @@
 
 				// Sky
 				
-				var geometry = new THREE.BoxGeometry ( 50000, 50000, 50000 );
+				var geometry = new THREE.BoxGeometry ( 9999999999, 9999999999, 9999999999 );
 				var map = textureLoader.load( 'sky.jpg' );
 				map.wrapS = map.wrapT = THREE.RepeatWrapping;
 				map.repeat.set( 4, 4 );
