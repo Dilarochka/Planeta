@@ -129,7 +129,7 @@
 				var geometry = new THREE.BoxGeometry ( 5000000 , 5000000 , 5000000 );
 				var map = textureLoader.load( 'sky.jpg' );
 				map.wrapS = map.wrapT = THREE.RepeatWrapping;
-				map.repeat.set( 1, 1 );
+				map.repeat.set( 3, 3 );
 				map.anisotropy = 16;
 				var material = new THREE.MeshBasicMaterial( { map: map, side: THREE.BackSide } );		
 				var Sky = new THREE.Mesh( geometry, material );				
